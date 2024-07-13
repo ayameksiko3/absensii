@@ -98,3 +98,25 @@ li span {
         font-size: 24px;
     }
 }
+
+/* Media Queries untuk tampilan lebih besar */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .container {
+        width: 80%;
+    }
+
+    h1, h2 {
+        font-size: 28px;
+    }
+}
+
+/* Media Queries untuk tampilan desktop besar */
+@media (min-width: 1025px) {
+    .container {
+        width: 60%;
+    }
+
+    h1, h2 {
+        font-size: 32px;
+    }
+}
